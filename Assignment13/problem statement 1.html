@@ -1,0 +1,22 @@
+<!-- Q-Explain the usage of ternary operator with syntax and write a program to check whether the number is even
+or odd using the ternary operator.
+A- Quick Choice: Ternary operator is a shortcut for making a quick decision in programming.
+ Condition Check: It checks a condition (like if something is true or false).
+ Two Options: If the condition is true, it picks the first option; if false, it picks the second. -->
+
+ <!-- program to chect whether the entered no. iseven or odd -->
+ <!DOCTYPE html>
+ <html lang="en">
+ <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+ </head>
+ <body>
+    <script>
+        const enter = parseInt(prompt('enter a no.'))
+        let found = (enter % 2 === 0 ? "Even":'odd')
+        document.write(`your entered no. is:${found}`)
+    </script>
+ </body>
+ </html>

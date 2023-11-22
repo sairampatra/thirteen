@@ -1,0 +1,20 @@
+<!-- Q-Use a nested ternary operator to check that a number is positive, negative or zero. You have to print
+“positive” if the number is positive and similarly for negative and zero also. -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const number = parseInt(prompt('Enter a no'))
+        let found = number>0 ? new String('positive') : number < 0 ?'negative' : 'zero'
+        document.write(new String(`your entered no. is :${found}`))
+
+
+       
+    </script>
+</body>
+</html>
